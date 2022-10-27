@@ -50,7 +50,9 @@ It's up to you.
 <details>
   <summary>Click here to see the details </summary>
 
-  ![mobile](https://s3-us-west-2.amazonaws.com/s.cdpn.io/67030/19_Yum-Yum_home_mobile.jpg)
+  ![mobile](
+    
+  )
 
 </details>
 
