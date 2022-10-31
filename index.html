@@ -5,42 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yum-Yum</title>
+    <link rel="stylesheet" type="text/css" href="fonts/Intro/intro-black-webfont.ttf">
     <link rel="stylesheet" href="style.css">
     
 
 </head>
 <body>
     <header>
-            <img src="../yum-yum-rgermillac/images/logo.svg" alt="logo">
-            <h1>Local Cuisine Delivered</h1>
-        <nav>
-            <a><img src="images/hamburger.svg" alt="menu"></a>
-            <a><img src="images/cart.svg" alt="cart"></a>
-        </nav>
+        <nav>    
+            <div class="container-1"> <!-- Flex container logo -->
+                <img src="images/logo.svg" alt="logo" width="180px" height="50px">
+                <section class="item2"> <!-- Flex items --> 
+                    <img src="images/hamburger.svg" alt="menu" width="30px" height="30px">
+                    <img src="images/cart.svg" alt="cart" width="30px" height="30px">
+                </section>
+            </div>
+            <section class= "pie-logo">
+                <h1>Local Cuisine Delivered</h1>
+                </section>
+        </nav>    
+
     </header>
 
     <!-- seccion gris a verde -->
-    <section> 
+    <section>
+    <a href="https://placeholder.com"><img src="https://via.placeholder.com/400"></a>
+    </section>
+    <section class="around-you">
     <h2>ORDER FROM RESTAURANTS AROUND YOU</h2>
-    
+    <form action="/form-page" method="post">
+        <ul>
+         <li>
+            <img src="images/pin.svg" alt="pin" width="20px" height="20px">
+           <label for="address">Enter your address</label>
+           <input type="text" id="address">
+         </li>
+         <li>
+           <img src="images/bbq.svg" alt="bbq" width="20px" height="20px"> 
+           <label for="mail">What would you like?</label>
+           <input type="menu" id="menu">
+         </li>
+        
+        </ul>
 
+        <b>FIND A FOOD</b>
+       </form>
     </section>
 
     <!-- seccion how it works -->
-    <section> 
-        <h3> HOW IT WORKS?</h3>
+    <section class="how-it-works"> 
+        <h3>HOW IT WORKS?</h3>
         <ol>
             <li>SEARCH</li>
-                <img src="images/map.png" alt="map">
+                <img src="images/map.png" alt="map" width="80px" height="80px">
                 <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nici vel augue.</p>
             <li>ORDER</li>
-                <img src="images/clipboard.png" alt="clipboard">
-                <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis fauci.</p>
+            <img src="images/clipboard.png" alt="clipboard" width="80px" height="80px">
+            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis fauci.</p>
             <li>EAT</li>
-                <img src="images/bag.png" alt="bag">
-                <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis fauci.</p>
+            <img src="images/bag.png" alt="bag" width="80px" height="80px">
+            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis fauci.</p>
+
         </ol>
-    </section>
+    </section>    
+                            
 
     <!-- DISHES -->
     <section>
@@ -49,14 +77,18 @@
 
     <!-- NARANJA/FUCSIA -->
     <section>
+        <img src="images/phone.svg" alt="phone" width="80px" height="80px">
         <h4>EASY ONLINE</h4>
             <p>No need to pick up the phone. Quick and accurate ordering is here</p>
-        <h4>12000+ MENUS</h4>
+        <img src="images/chicken.svg" alt="chicken" width="80px" height="80px">
+            <h4>12000+ MENUS</h4>
             <p>Discovery new places - order your usual and throw away those paper</p>
-        <h4>DISCOUNTS&DEALS</h4>
+        <img src="images/percent.svg" alt="percent" width="80px" height="80px">
+            <h4>DISCOUNTS&DEALS</h4>
             <p>Get exclusive offers and save on your delivery favorites</p>
-        <h4>ANYTIME, ANYWHERE</h4>
-        <p>On-the-go? Check out our convenient apps for iOS</p>
+        <img src="images/mobile.svg" alt="mobile" width="80px" height="80px">
+            <h4>ANYTIME, ANYWHERE</h4>
+            <p>On-the-go? Check out our convenient apps for iOS</p>
         <h3>RESTAURANT BY CUISINE</h3>
         <h4>BANNER FROM HEZY THEME</h4>
         <h3>FEATURED RESTAURANT</h3>
