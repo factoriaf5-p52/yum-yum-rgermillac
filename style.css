@@ -33,7 +33,6 @@ header{
     margin-top: 0%;
     padding: 0%;
     display: flex;
-    flex-direction: row;
     margin-right: 0%;
     align-items: center;
     justify-content: space-between;
@@ -58,30 +57,75 @@ h1{
     color:grey
  }
 
-
 li{
     font-weight:900;
     font-size: 18px;
 }
 
-section.around-you{
-    background-color: #99da37;
-    list-style: none;
-    width: 100%;
-    height: 300px;
+.gris{
+    display: flex;
+    background-color: gray;
+    width: 400px;
+    height: 400px;
 }
 
-b{
+.around-you{
+    background-color: #99da37;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+.around-you h2{
+    text-align: center;
+}
+.foodform{
+    display:flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    border-radius: 5px;
+    align-items: center;
+}
+#address{
+    background-image: url("/images/bag.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 1rem center;
+}
+#menu{
+    margin-top: 1px;
+}
+.foodform input{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
     background-color: orange;
     color: white;
     font-weight: 800;
+    font-size: 15px;
+    margin-top: 5%;
+    align-self:flex-start;
+    margin-left: 7%;
+    width: 45%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
 }
 
 h2{
     font-weight: 900;
     font-size: 35px;
     color: white;
-    align-content: center;
+    
 }
 
 h3{
