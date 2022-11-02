@@ -98,6 +98,7 @@ li{
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
+
 #menu{
     background-image: url("/images/bbq.png");
     background-size: 20px;
@@ -152,11 +153,89 @@ p{
     color: grey;
 }
 
+.how-it-works{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600;
+}
+
+.how-title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    padding: 5%;
+}
+
+.how-box{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    margin-left: 10%;
+}
+
+.how-img{
+    margin-top: 30px;
+    
+}
+
+.content{
+    display: block;
+    line-height: 0%;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+
+    
+}
+
+.content p{
+    line-height: 20px;
+}
+
 h4{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.naranja-fucsia{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.advantage{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.adv-img{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    border-radius: 80%;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.advantage p{
+    width: 150px;
+    text-align: center;
+
+}
+.content h5{
     font-weight: 700;
     font-size: 14;
     color: white;
-
+    text-align: center;
 }
 
 h5{
@@ -164,6 +243,7 @@ h5{
     font-weight: 900;
     font-size: 12px;
 }
+
 h6{
     color: black;
     font-weight: 200;
