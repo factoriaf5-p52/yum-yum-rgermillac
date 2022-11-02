@@ -206,13 +206,15 @@ h4{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 400px;
+    height: 800px;
+    background: linear-gradient(#e68439 , #fc475c);
 }
 
 .advantage{
     width: 50%;
     justify-content: center;
     align-items: center;
-
 }
 
 .adv-img{
@@ -220,7 +222,7 @@ h4{
     width: 40%;
     height: 40%;
     border-radius: 80%;
-    background-color: orange;
+    background-color: white;
     align-items: center;
     justify-content: center;
 
@@ -229,19 +231,22 @@ h4{
 .advantage p{
     width: 150px;
     text-align: center;
-
+    color: white;
+    font-family: "lato",sans-serif;
 }
 .content h5{
     font-weight: 700;
     font-size: 14;
     color: white;
     text-align: center;
+    
 }
 
 h5{
-    color: black;
+    color: white;
+    font-family: "intro",normal;
     font-weight: 900;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 h6{
